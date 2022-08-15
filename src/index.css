@@ -1,0 +1,197 @@
+ @font-face {
+   font-family: buttonFont;
+   src: url(assets/fonts/WICKEDMOUSEDEMO.OTF);
+ }
+ @font-face {
+   font-family: mathFont;
+   src: url(assets/fonts/CARAMELIA.OTF);
+ }
+    @font-face {
+      font-family: textFont;
+      src: url(assets/fonts/RALEWAY-REGULAR.TTF);
+    }
+
+    @font-face {
+      font-family: textboldFont;
+      src: url(assets/fonts/RALEWAY-BOLD.TTF);
+    }
+    button:focus{
+          outline: none;
+    }
+    #myVideo {
+      position: fixed;
+      max-width: inherit;
+    }
+
+    .content {
+      position: fixed;
+    }
+    .ReactModal__Overlay{
+      background-color: #00000073 !important;
+    }
+ #btns {
+   font-family: buttonFont;
+   font-size: x-large;
+ }
+ #btnsmth {
+   font-family: buttonFont;
+   font-size: xxx-large;
+ }
+  .mathqus {
+    font-family: mathFont;
+    font-size: xxx-large;
+  }
+  .mathqus2 {
+    font-family: mathFont;
+    font-size: 100px;
+  }
+  .equal {
+    font-family: mathFont;
+    font-size: x-large;
+    color: white;
+  }
+  .spans {
+    font-family: buttonFont;
+    font-size: xx-large;
+  }
+  h1 {
+    font-family: textFont;
+    font-size: x-large;
+  }
+span {
+  font-family: textboldFont;
+}
+@media screen and (min-width: 1440px) {
+  .qsimg {
+    width: 30% !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .qsimg {
+    width: 48% !important;
+  }
+}
+
+@media screen and (max-height: 720px) {
+  .mermenttext {
+    margin-bottom: 17px;
+  }
+
+  .qsimg {
+    width: 25% !important;
+  }
+.qsimg1 {
+  width: 100% !important;
+}
+video{
+  width: 100%;
+}
+.selectgriddiv{
+  margin-top: 1rem;
+}
+  .optslctans {
+    margin-bottom: 0;
+    margin-top:0;
+  }
+  .qsdiv {
+    margin-top: 3rem;
+  }
+}
+  @media screen and (max-height: 780px) {
+    .mainq {
+      height: 10rem;
+      margin: 4rem;
+    }
+     .mathqus2 {
+       font-size: 65px;
+     }
+     .mermenttext>div {
+       width: 72% !important;
+     }
+     .optslctans {
+       margin-bottom: 0;
+       margin-top: 0;
+     }
+     .qsimg {
+       height: 304px !important;
+       width: 100% !important;
+     }
+
+     .qsdiv {
+       margin-top: 0rem;
+       margin-bottom: 0rem;
+     }
+  }
+  @media screen and (max-height: 720px) {
+
+    .mermenttext>.secddiv {
+      width: 15% !important;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    body {
+      transform: rotate(90deg);
+    }
+
+    .titl {
+      width: 42rem;
+    }
+
+    .mainq {
+      width: 40rem;
+      height: 10rem;
+      margin-left: 79px;
+    }
+
+    .smw-10 {
+      width: 2.5rem;
+    }
+
+    .ansoptm {
+      margin-right: -13rem;
+      padding-bottom: 5px;
+      gap: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .titl {
+      width: 38rem;
+    }
+
+    .mainq {
+      width: 30rem;
+      height: 7rem;
+      margin: 1rem 4rem;
+    }
+
+    .smw-10 {
+      width: 2.5rem;
+    }
+
+    .ansoptm {
+      margin-right: -13rem;
+      padding-bottom: 5px;
+      gap: 1rem;
+    }
+
+    .ansoptms {
+      width: 8rem;
+      height: 4rem;
+    }
+
+    .ansoptm>div {
+      width: 4rem;
+      height: 4rem;
+    }
+
+    .ansoptms>h1 {
+      line-height: 5rem !important;
+    }
+
+    .ansoptm>div>h1 {
+      line-height: 4.5rem !important;
+    }
+  }

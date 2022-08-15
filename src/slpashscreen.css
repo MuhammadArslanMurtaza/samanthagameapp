@@ -1,0 +1,20 @@
+.prograss_bar{
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     transition: .5s ease;
+     opacity:1;
+     color: white;
+     font-size: 20px;
+     padding: 8px;
+     text-align: center;
+}
+.prograss_bar .progress{
+     width: 24%;
+     margin: 0 auto;
+}
+@media screen and (max-width: 480px) {
+.prograss_bar .progress{
+     width: 65%;
+}
+}
